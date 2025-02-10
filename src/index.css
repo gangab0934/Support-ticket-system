@@ -1,0 +1,461 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+  background-color: #1e293b; /* Dark blue-gray */
+  color: white;
+}
+
+.logo {
+  left:40 px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8; /* Light blue */
+}
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f8fafc; /* Light gray background */
+}
+
+.content-area {
+  max-width: 60%;
+}
+
+.content-area h1 {
+  font-size: 3rem;
+  color: #1e293b; /* Dark blue-gray */
+  margin-bottom: 10px;
+}
+
+.content-area p {
+  font-size: 1.4rem;
+  color: #475569; /* Medium gray */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+/* Container for the entire login form */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.d-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.forgot-password {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.sign-in-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sign-in-google button {
+  background-color: #db4437;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.sign-in-google button:hover {
+  background-color: #c1351d;
+}
+/* Center the form container */
+.register {
+  width: 100%;
+  max-width: 400px; /* Adjust form width */
+  margin: 60px auto; /* Center the form */
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form heading */
+.register h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+.register label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input field styles */
+.register .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.register .form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit button styling */
+.register .btn-primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.register .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Forgot password and login link */
+.register .forgot-password {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.register .forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register .forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* About */
+
+/* General container styling */
+.about-container {
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the page */
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Section titles */
+.about-section-title {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  color: #444;
+  font-weight: bold;
+}
+
+/* Paragraphs */
+.about-description, .about-thankyou {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+  }
+
+  .about-title {
+    font-size: 1.6rem;
+  }
+
+  .about-section-title {
+    font-size: 1.3rem;
+  }
+
+  .about-description, .about-thankyou {
+    font-size: 1rem;
+  }
+}
+
+/*View Ticket */
+
+/* Container for the ticket details */
+.ticket-container {
+  display: flex;
+  flex-direction: column;  /* Stack the child elements vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center;     /* Center items horizontally */
+  width: 80%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header style - styling the main title (Ticket Details) */
+.ticket-container h1 {
+  font-size: 2.7rem;
+  color:darkslategray; /* Blue color for prominence */
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase; /* Title in uppercase */
+  letter-spacing: 2px; /* Add space between letters */
+  font-weight: bold; /* Bold title */
+  padding-bottom: 10px;
+}
+
+/* Each ticket field's styling (with flex for horizontal layout) */
+.ticket-field {
+  display: flex;
+  justify-content: flex; /* Align items to start */
+  margin-bottom: 1rem; /* Reduced margin to decrease space between fields */
+  align-items: center; /* Align items vertically in the center */
+  width: 50%; /* Ensure full width for content */
+}
+
+/* Label for the ticket field (Title, Description, etc.) */
+.ticket-field strong {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.2rem; /* Larger label font */
+  margin-right: 10px; /* Reduced margin to decrease space between title and value */
+}
+
+/* Value for the ticket field (Title content, Description, etc.) */
+.ticket-field p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6; /* Better spacing between lines */
+  word-break: break-word; /* Ensures long words break to next line */
+}
+
+/* Loading state styling */
+.loading {
+  font-size: 1.5rem;
+  color: #888;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/*Edit ticket*/
+
+/* Styling for EditTicket page */
+.edit-ticket-container {
+  width: 100%;
+  max-width: 400px; /* Adjust form width */
+  margin: 60px auto; /* Center the form */
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  background-color: white;
+  padding: 15px;  /* Reduced padding */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;  /* Reduced width */
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
+  
+
+}
+
+label {
+  font-size: 20px;
+  color: #555;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:darkgray;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:disabled {
+  background-color: #b0b0b0;
+  cursor: not-allowed;
+}
+/*backspace*/
+.go-back-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0; /* Remove padding */
+  outline: none; /* Remove focus outline */
+}
+
+.go-back-btn svg {
+  width: 30px; /* Adjust the size of the icon */
+  height: 30px;
+  transition: none; /* Remove any transition effects */
+}
+
+/* Prevent hover effect */
+.go-back-btn:hover {
+  background: transparent; /* No background change */
+  transform: none; /* No transform effect on hover */
+}
+
+
+
