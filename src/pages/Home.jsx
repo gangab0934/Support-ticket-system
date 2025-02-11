@@ -5,8 +5,8 @@ const Home = () => {
   return (
       <div className="page-container">
                 <div className="content-area">
-                <h1>Book Your Tickets Easy</h1>
-                <p> Travel Makes Life Happy</p>
+                <h1>Smart Support, Swift Solutions! Raise a ticket and get instant assistance.</h1>
+                
                 </div>
     
             <div className="image-container">
